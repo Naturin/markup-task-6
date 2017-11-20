@@ -1,0 +1,499 @@
+section
+{
+    display: grid;
+    grid-template-rows: auto;
+    grid-template-columns: 200px 1fr 1fr 200px 280px;
+    font: 14px Arial, sans-serif;
+}
+
+.where-are-you
+{
+    grid-column: 1/2;
+    grid-row: 1/2;
+    padding: 10px;
+    color: #8c8c8c;
+}
+
+.setting-and-mail
+{
+    grid-column: 5/6;
+    grid-row: 1/2;
+}
+
+.top-news
+{
+    grid-column: 2/4;
+    grid-row: 2/3;
+}
+
+.gb-and-weather
+{
+    grid-row: 2/3;
+    grid-column: 4/5;
+}
+
+.for-logo
+{
+    grid-row: 3/4;
+    grid-column: 1/2;
+    text-align: right;
+}
+
+.string-finder
+{
+    grid-row: 3/4;
+    grid-column: 5/6;
+}
+
+.the-most-visited
+{
+    grid-column: 2/3;
+    grid-row: 6/7;
+    margin: 10px 0;
+    padding-right: 10px;
+
+}
+
+.tv
+{
+    grid-row: 6/7;
+    grid-column: 3/4;
+    margin: 10px 0;
+}
+
+.city
+{
+    grid-row: 6/7;
+    grid-column: 4/6;
+    margin: 10px 0;
+}
+
+.for-tv-program > h4
+{
+    margin: 5px 10px;
+}
+
+.tv > h2,
+.tv-button
+{
+    display: inline-block;
+}
+
+.tv > h2
+{
+    margin-left: 0;
+}
+
+.tv-button
+{
+    background: linear-gradient(to right, #33659e, #5e4b9e);
+    color: #fff;
+    border-radius: 7px;
+    width: 100px;
+    text-align: center;
+    padding: 5px;
+    position: relative;
+}
+
+.tv-button > div
+{
+    display: inline-block;
+}
+
+.icon.caret-rigth
+{
+    position: absolute;
+    top: 0;
+    padding-left: 4px;
+}
+
+.for-logo > img
+{
+    width: 80%;
+    padding: 11px;
+}
+
+.search
+{
+    grid-row: 3/4;
+    grid-column: 2/5;
+}
+
+.for-pic
+{
+    grid-row: 4/5;
+    grid-column: 2/5;
+}
+
+h2,
+h4,
+h5
+{
+    margin: 10px;
+}
+
+h2
+{
+    color: #17178a;
+    font-size: 20px;
+}
+
+.top-news > div > h2:nth-child(2)
+{
+    color: #6095d1;
+}
+
+h4
+{
+    color: #8c8c8c;
+    font-size: 15px;
+}
+
+.digits
+{
+    color: #000;
+    margin-right: 5px;
+}
+
+.icon,
+span,
+h2,
+h5,
+.setting-and-mail > div,
+.mail,
+.count-of-letters,
+h4,
+.for-icons-point
+{
+    display: inline-block;
+}
+
+ul
+{
+    padding: 0 25px;
+}
+
+figure
+{
+    width: 125px;
+    float: left;
+    margin: 0;
+}
+
+img
+{
+    width: 100%;
+}
+
+figcaption
+{
+    font-size: 10px;
+    color: #8c8c8c;
+}
+
+.login::first-letter
+{
+    color: #da0400;
+}
+
+.login,
+.count-of-letters
+{
+    font-weight: 600;
+}
+
+.count-of-letters
+{
+    padding: 10px 5px 5px;
+}
+
+.setting
+{
+    width: 31%;
+    text-align: right;
+    margin: 10px;
+}
+
+.aside
+{
+    padding: 10px;
+}
+
+.aside > h2
+{
+    margin: 8px 0;
+}
+
+.enter-in-mail
+{
+    box-shadow: 0 0 3px 0 #5b5b5b;
+    width: 57%;
+    float: right;
+    padding: 10px 5px;
+}
+
+.search > div > h2
+{
+    font-size: 15px;
+}
+
+.string-of-search
+{
+    border: 2px solid #ffdc58;
+    color: #8c8c8c;
+    text-align: end;
+    padding: 5px;
+}
+
+.search > h4,
+.caption
+{
+    display: inline-block;
+}
+
+.search > h4
+{
+    font-weight: 200;
+    margin: 10px 5px;
+}
+
+.string-finder
+{
+    position: relative;
+}
+
+.string-finder > input
+{
+    border: 2px solid #ffdc58;
+    background-color: #ffdc58;
+    width: 70px;
+    height: 34px;
+    top: 38px;
+    position: absolute;
+    text-align: center;
+    font-size: 17px;
+}
+
+.triangle
+{
+    border: 20px solid transparent;
+    border-left: 20px solid #ffdc58;
+    left: 76px;
+    position: absolute;
+    top: 38px;
+}
+
+.for-pic
+{
+    height: 150px;
+}
+
+.for-pic > img
+{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+.the-most-visited > h2,
+.the-most-visited > div
+{
+    width: 100%;
+}
+
+.the-most-visited > h2
+{
+    margin: 10px 5px;
+}
+
+.the-most-visited > div > h5
+{
+    font-size: 14px;
+    margin: 5px;
+}
+
+.the-most-visited > div > span
+{
+    padding-left: 5px;
+}
+
+.for-tv-program
+{
+    width: 100%;
+}
+
+.for-tv-program > .time,
+.for-tv-program > span,
+.for-tv-program > h4
+{
+    display: inline-block;
+}
+
+.time
+{
+    margin-right: 5px;
+}
+
+.for-tv-program > h4
+{
+    font-weight: 200;
+}
+
+.weather > h2:first-child,
+.road > h2:first-child,
+.map > h2:first-child,
+.poster > h2:first-child,
+.poster > h5,
+.joke > h2,
+.car > h2
+{
+    margin-left: 0;
+}
+
+.weather > span,
+.road > span,
+.map > span
+{
+    width: 100%;
+}
+
+.weather,
+.road,
+.map
+{
+    margin-bottom: 20px;
+}
+
+.icon
+{
+    font: 25px FontAwesome;
+}
+
+.icon.location::after
+{
+    content: '\f124';
+}
+
+.icon.point::after
+{
+    content: '\f111';
+    font-size: 8px;
+    color: #8c8c8c;
+    margin: 1px;
+    vertical-align: middle;
+}
+
+.for-icons-point
+{
+    margin-left: 8px;
+}
+
+.icon.microphone::after
+{
+    content: '\f130';
+}
+
+.icon.keyboard::after
+{
+    content: '\f11c';
+}
+
+.icon.caret-rigth::after
+{
+    content: '\f0da';
+}
+
+.icon.cloud::after
+{
+    content: '\f0c2';
+    color: #abb8e6;
+}
+
+.road > .icon::after
+{
+    font-size: 25px;
+    color: #e9da33;
+}
+
+.map > h2,
+.poster > h2
+{
+    width: 100%;
+}
+
+.map > h5
+{
+    font-size: 13px;
+    margin-left: 0;
+}
+
+.film > h4
+{
+    margin: 5px 10px;
+}
+
+.map > h5:last-child
+{
+    width: 100%;
+}
+
+.film,
+.car-news > span
+{
+    width: 100%;
+}
+
+.poster > h5
+{
+    font-size: 14px;
+}
+
+.joke > div
+{
+    margin: 10px 0;
+}
+
+.joke > span a
+{
+    text-decoration: none;
+}
+
+.joke,
+.car
+{
+    margin-top: 20px;
+}
+
+input[id='refresh']
+{
+    display: none;
+}
+
+.icon.refresh::before
+{
+    content: '\f021';
+    margin-right: 5px;
+}
+
+.joke > label
+{
+    font-size: 16px;
+    color: #6095d1;
+}
+
+label:hover
+{
+    cursor: pointer;
+}
+
+.car-news > span
+{
+    margin: 0 0 10px;
+}
+
+.car-news
+{
+    height: 75px;
+    overflow: scroll;
+    box-shadow: 0 2px 4px 0 #c3c3c3 inset, 0 -15px 4px 0 #c3c3c3 inset;
+}
